@@ -3,12 +3,15 @@ import './NavBar.css'
 
 const NavBar = () =>{
     return (
-        <nav>
-            <h1>ECommerce</h1>
-            <div>
-                <button>Celulares</button>
-                <button>Tablets</button>
-                <button>Notebooks</button>
+        <nav className='NavBar'>
+            <h1 className='nav-logo'>Joyitas</h1>
+            <div className='items'>
+                <a href='' >Anillos</a>
+                <a href=''>Pendientes</a>
+                <a href=''>Pulseras</a>
+                <a href=''>Collares</a>
+                <a href=''>Contacto</a>
+
             </div>
         </nav>
     )
