@@ -1,6 +1,7 @@
 .cart{
     width: 100px;
     display: flex;
+    cursor: pointer;
 
 }
 

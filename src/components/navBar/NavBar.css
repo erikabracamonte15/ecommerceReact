@@ -8,14 +8,14 @@
 
 .NavBar > .nav-logo {
     font-weight: 700;
-    font-size: 23px;
-    margin: 15px;
+    font-size: 30px;
+    margin-left: 40px;
     color: white;
 }
 
 .NavBar > .items > a{
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     margin: 15px;
     position: relative;
