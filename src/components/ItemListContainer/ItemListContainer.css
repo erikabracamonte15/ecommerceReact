@@ -1,0 +1,12 @@
+.ItemListContainer{
+    margin: 20px;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.ItemListContainer >div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}

@@ -2,8 +2,10 @@ import './ItemCount.css'
 import {useState} from 'react';
 
 const ItemCount = (props) => {
+    console.log(props.stock)
     const initial = 1;
-    let stock = 5;
+    let stock = 10;
+  
    
 
     const [count, setCount] = useState(initial);

@@ -1,10 +1,10 @@
 .itemCount {
-    width: 350px;
-    height: 180px;
+    width: 250px;
+    height: 150px;
     background-color: white;
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 20px auto;
+    margin: 20px auto;  
 }
 .itemCount > div > h3 {
     font-size: 25px;
@@ -17,7 +17,7 @@
 .itemCount > div > .controls {
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: 200px;
     margin: 0 auto;
     border: 1px solid rgb(21, 21, 21);
     border-radius: 3px;
@@ -38,7 +38,7 @@
 
 }
 .itemCount > .button {
-    width: 280px;
+    width: 200px;
     margin: 15px auto;
 }
 .itemCount > .button > button {

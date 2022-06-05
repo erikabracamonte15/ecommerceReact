@@ -6,14 +6,14 @@
     background: #5265c4;
 }
 
-.NavBar > .nav-logo {
+.NavBar > .link > .nav-logo{
     font-weight: 700;
     font-size: 30px;
     margin-left: 40px;
     color: white;
 }
 
-.NavBar > .items > a{
+.NavBar > .categories > .Option{
     color: white;
     font-size: 22px;
     text-decoration: none;
@@ -21,10 +21,10 @@
     position: relative;
     opacity: 0.9;
 }
-.NavBar > .items > a:hover{
+.NavBar > .categories > .Option:hover{
     opacity: 1;
 }
-.NavBar > .items > a::before{
+.NavBar > .categories > .Option::before{
     content: "";
     position: absolute;
     left: 0;
@@ -35,6 +35,18 @@
     transition: all .45s;
 }
 
-.NavBar > .items > a:hover::before{
+.NavBar > .categories > .Option:hover::before{
     width: 100%;
+}
+.NavBar > .link {
+    text-decoration: none;
+}
+.NavBar > .categories > .ActiveOption {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
 }
