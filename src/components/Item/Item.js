@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import './Item.css'
 
 
@@ -9,7 +9,7 @@ const Item = ({id, name, price, category, img, stock, description}) => {
             <img src={img} alt={category}></img>
             <p>{description}</p>
             <h3>${price}</h3>
-            <Link to={`./detail/${id}`}>
+            <Link to={`/detail/${id}`}>
                 <button>Ver detalle</button>
             </Link>                 
            
